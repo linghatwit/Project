@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.SceneController">
+   <children>
+      <TextField editable="false" layoutX="30.0" layoutY="39.0" prefHeight="118.0" prefWidth="529.0" style="-fx-background-color: black; -fx-text-fill: White;" text="GAME OVER">
+         <font>
+            <Font size="78.0" />
+         </font>
+      </TextField>
+      <Button layoutX="248.0" layoutY="208.0" mnemonicParsing="false" onAction="#switchToMainGame" prefHeight="51.0" prefWidth="91.0" text="Try again" />
+      <Button layoutX="248.0" layoutY="292.0" mnemonicParsing="false" onAction="#switchToMainMenu" prefHeight="51.0" prefWidth="91.0" text="Main Menu" />
+   </children>
+</AnchorPane>
